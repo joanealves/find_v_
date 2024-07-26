@@ -31,7 +31,7 @@ const Header: React.FC = () => {
           variant="filled"
           bg="transparent"
           color="#01547D"
-          border="1px solid #637381" // Alterado para cinza claro
+          border="1px solid #637381" 
           _focus={{ borderColor: '#01547D' }}
           width="266px"
           height="36px"
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
           height="36px"
           borderTopLeftRadius="10px"
           borderBottomLeftRadius="10px"
-          border="none" // Removendo borda
+          border="none" 
         >
           Cadastre-se
         </Button>
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
           height="36px"
           borderTopRightRadius="10px"
           borderBottomRightRadius="10px"
-          border="none" // Removendo borda
+          border="none" 
         >
           Sou Fornecedor
         </Button>
